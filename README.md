@@ -15,4 +15,4 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 -->
 
-![Android Compact - TinyMotion Splash](https://github.com/user-attachments/assets/b72dc3b5-6e06-4869-8a58-7be4573d1793)
+![Android Compact - TinyMotion Splash](https://github.com/user-attachments/assets/8a4077e2-409a-43ab-91cb-67f456ec89d4)
