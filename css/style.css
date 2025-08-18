@@ -8,6 +8,21 @@ header {
     backdrop-filter: blur(5px);
 }
 
+header .wrapper {
+    padding: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.5rem;
+}
+
 nav a {
     display: flex;
     padding: 10px;
@@ -30,12 +45,22 @@ nav a.active {
     background-color: #FFEA92;
 }
 
-.logo {
+header .logo {
     opacity: 1;
     transition: .25s ease-in-out;
+    display: flex;
+    width: min-content;
 }
 
 .logo:hover {
     opacity: .75;
     transition: .25s ease-in-out;
+}
+
+main section .wrapper {
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
