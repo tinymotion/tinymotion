@@ -1,0 +1,41 @@
+body {
+    font-family: Inter, sans-serif;
+}
+
+header {
+    border-bottom: 1px solid var(--Light-Gray-Blue, #DAE5EF);
+    background: rgba(246, 246, 246, 0.75);
+    backdrop-filter: blur(5px);
+}
+
+nav a {
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 8px;
+    border: 1px solid var(--Light-Gray-Blue, #DAE5EF);
+    text-decoration: none;
+    color: #3E4347;
+    transition: .25s ease-in-out;
+}
+
+nav a:hover {
+    background-color: #DAE5EF;
+    transition: .25s ease-in-out;
+}
+
+nav a.active {
+    background-color: #FFEA92;
+}
+
+.logo {
+    opacity: 1;
+    transition: .25s ease-in-out;
+}
+
+.logo:hover {
+    opacity: .75;
+    transition: .25s ease-in-out;
+}
