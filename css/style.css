@@ -58,9 +58,39 @@ header .logo {
 }
 
 main section .wrapper {
-    flex-direction: row;
+    flex-direction: column;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
+    align-items: center;
     padding-top: 100px;
     padding-bottom: 100px;
+}
+
+h1 {
+    color: #3E4347;
+    text-align: center;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    font-size: 3.5rem;
+    font-family: 'Inter', sans-serif;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+h1 span {
+    font-weight: 700;
+}
+
+@media (min-width: 481px) { 
+header nav {
+        display: none;
+} 
+}
+
+@media (min-width: 1025px) {
+    header nav {
+        display: flex;
+    }
 }
