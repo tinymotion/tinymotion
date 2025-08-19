@@ -174,7 +174,7 @@ main section:nth-of-type(1) p {
     gap: 25px;
 }
 
-section .card-wrapper {
+section .cards-wrapper {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
@@ -219,6 +219,14 @@ section .card-wrapper {
     background: #FFEA92;
 }
 
+.circle-radius {
+    border-radius: 50%;
+}
+
+.process-card:hover {
+    padding-top: 30px;
+}
+
 @media (min-width: 0px) {
     header nav {
         display: none;
@@ -228,5 +236,9 @@ section .card-wrapper {
 @media (min-width: 1025px) {
     header nav {
         display: flex;
+    }
+
+    .cards-wrapper {
+        flex-wrap: nowrap!important;
     }
 }
