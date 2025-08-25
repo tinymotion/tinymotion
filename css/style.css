@@ -198,9 +198,9 @@ section .cards-wrapper {
 }
 
 .card:hover {
-    background-color: #FFEA92;
-    transition: .25s ease-in-out;
-    cursor: default;
+  background-color: #FFEA92;
+  transition: .25s ease-in-out;
+  cursor: default;
 }
 
 .card:hover .icon {
